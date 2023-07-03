@@ -13,7 +13,7 @@ function siguientePrimoPalindromo(n) {
     }
     return true;
   }
-  //funcion interna que determina si un numeo dado es palindromo
+  //funcion interna que determina si un numero dado es palindromo
   function esPalindromo(numeroI) {
   const cadena = numeroI.toString();
   const longitud = cadena.length;
